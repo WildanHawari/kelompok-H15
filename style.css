@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import "button.css";
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+ }
+
+ * {
+     transition: all 0.1s;
+ }
+
+@media (max-width: 767.98px){
+.home body .card {
+    background-position: right 42% top;
+}
+}
+
+.home {
+    min-height: 794px!important;
+    color: #fff;
+    margin-top: -5em;
+    z-index: -1;
+    padding-top: 20em;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+}
+
+.center {
+    text-align: center!important;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-top: 16em;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.home h1 p{
+    font-size: 6em!important;
+    font-weight: 400;
+}
+
+h1 p{
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    width: 100%;
+}
+  
+  button {
+    margin-top:20px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  button:hover {
+      background-color: #fff;
+      color: rgb(48, 62, 143);
+  }
+
+
+  .txthome {
+      font-size: 30px;
+  }
+
+  .card {
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+ .profile img {
+    width: 300px;
+ }
+
+ #myface {
+     margin-bottom: 25px;
+ }
+
+ #myface:hover {
+    cursor: pointer;
+ }
+
+ h2 {
+    color: black;
+    font-size: 25px;
+ }
+
+ main {
+    padding: 20px;
+ }
+
+ th {
+     text-align: left;
+
+ }
+
+ table {
+     margin-left: 15px;
+     margin-bottom: 15px;
+ }
+
+
+ .personal {
+    text-align: justify; 
+    font-weight: 500;
+    font-size: 1em;
+ }
+
+ footer {
+    padding: 20px;
+    color: white;
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+    text-align: center;
+    font-weight: bold;
+ }
+
+#footer2 {
+    width: auto;
+    height: 200px;
+}
+
+ #face-tap {
+     margin-top: -2rem;
+     margin-bottom: 2rem;
+ }
+
+ a{
+     text-decoration: none;
+     color: black;
+ }
+
+ h3 {
+     margin-left: 1rem;
+     margin-top: 3.5rem;
+ }
+
+ #deskripsi-biodata {
+     text-align: center;
+     padding-bottom: 40px;
+     font-size: 20px;
+ }
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     
+    background: #666;    
+}
+ 
+::-webkit-scrollbar-thumb {
+    background:white;
+}
