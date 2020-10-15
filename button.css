@@ -1,0 +1,64 @@
+.btn{
+    padding: 15px 30px;
+    font-size: 0.90em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: #dddddd;
+    font-weight: bold;
+    border: #dddddd solid 1px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 0.90em;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-group .btn{
+    margin: 0 0 0 27%;
+    padding: 15px 30px;
+    font-size: 0.90em;
+    background-color: transparent;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    border: black solid 1px;
+}
+
+.btn-group{
+    display: flex;
+}
+
+.btn-group a{
+    text-decoration: none;
+    color: #dddddd;
+}
+
+
+
+@media screen and (max-width: 670px) {
+    .btn{
+        padding: 10px 20px;
+        font-size: 0.90em;
+        background-color: transparent;
+        text-transform: capitalize;
+        color: #dddddd;
+        font-weight: bold;
+        border: #dddddd solid 1px;
+    }
+    
+    .btn:hover{
+        cursor: pointer;
+        padding: 10px 20px;
+        font-size: 0.90em;
+        background-color:lightseagreen;
+        text-transform: capitalize;
+        color: white;
+        font-weight: bold;
+        border: #10111B solid 1px;
+        transition: 0.3s;
+    }
+}
